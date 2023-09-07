@@ -1,0 +1,9 @@
+# import the calender module
+import calendar
+
+#both inputs year and month should be integers 
+y = int(input("Input the year : "))
+m = int(input("Input the month : "))
+
+#module output 
+print(calendar.month(y, m))
