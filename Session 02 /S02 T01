@@ -1,7 +1,10 @@
 import math 
 from math import pi 
 
+#force the data type to be int
 r= int(input ("Please Enter Radius:"))
+
+#the data type should be str instead of float
 Area =str((r * r) * 3.14)
 
 print ("Area of circle = "+Area+"m2")
