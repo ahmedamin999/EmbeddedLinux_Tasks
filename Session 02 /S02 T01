@@ -1,0 +1,7 @@
+import math 
+from math import pi 
+
+r= int(input ("Please Enter Radius:"))
+Area =str((r * r) * 3.14)
+
+print ("Area of circle = "+Area+"m2")
